@@ -3,14 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
 import { Provider } from 'react-redux';
+=======
+>>>>>>> 1e90826af9248c61c21277f224ea0f558573c791
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<<<<<<< HEAD
     <Provider><App />
     </Provider>
     
+=======
+    <App />
+>>>>>>> 1e90826af9248c61c21277f224ea0f558573c791
   </React.StrictMode>
 );
 

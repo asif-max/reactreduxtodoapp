@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "backend-services",
+=======
+  "name": "todo-app",
+>>>>>>> 1e90826af9248c61c21277f224ea0f558573c791
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,8 +40,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
+=======
+>>>>>>> 1e90826af9248c61c21277f224ea0f558573c791
   }
 }

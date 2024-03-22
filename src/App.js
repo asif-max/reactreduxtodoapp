@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -23,3 +24,17 @@ function App() {
 }
 
 export default App;
+=======
+import React from "react";
+import { Provider } from "react-redux";
+import store from "./store";
+import Todo from "./Todo";
+const App = () => {
+  return (
+    <Provider store={store}>
+       <Todo /> 
+    </Provider>
+  );
+};
+export default App;
+>>>>>>> 1e90826af9248c61c21277f224ea0f558573c791
